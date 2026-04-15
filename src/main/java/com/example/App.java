@@ -1,7 +1,9 @@
 package com.example;
 
 public class App {
-    public int add(int a, int b) {
-        return a + b;
+    
+    // Method to find square of a number
+    public int square(int a) {
+        return a * a;
     }
 }

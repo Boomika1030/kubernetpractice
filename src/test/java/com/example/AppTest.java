@@ -6,13 +6,14 @@ import static org.junit.Assert.*;
 public class AppTest {
 
     @Test
-    public void testAdd() {
+    public void testSquare() {
         App app = new App();
         
-        int result = app.add(2, 3);
+        int result = app.square(4);
         
-        System.out.println("Result is: " + result);
+        // This will print in Jenkins Console Output
+        System.out.println("Square is: " + result);
 
-        assertEquals(5, result);
+        assertEquals(16, result);
     }
 }
